@@ -13,6 +13,7 @@ const App: React.FC = () => {
         {['up', 'down', 'left', 'right'].map((dir) => (
           <ArrowTarget key={dir} type={dir} />
         ))}
+        
       </div>
       <ArrowTarget />
       <ArrowSpawner />
