@@ -6,9 +6,7 @@ The application is a game, when the directions come down from the top of the scr
 
 It is built to entertain the user. It was also built to entertain me and to make a continuous project that I can keep adding to at my leasure.
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the app running and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/b9VAO5PrnAI)
 
 # Development Environment
 
@@ -18,12 +16,15 @@ I used React and Typescript which should go well with android applications.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Typescript documentation](https://www.typescriptlang.org/docs/)
+* [How to install react and npm](https://www.youtube.com/watch?v=HIdPpm-0ZNQ)
 
 # Future Work
 
-* Item 1: make the game 'beat' sensitive. When music is playing the tiles should be pressed by the user so that it matches the beat of the music.
-* Item 2: make the design cleaner for the user. I want to make art for the background.
-* Item 3: menu, make a home screen for the user.
+* Item 1: Make the game 'beat' sensitive. When music is playing the tiles should be pressed by the user so that it matches the beat of the music.
+* Item 2: Make the design cleaner for the user. I want to make art for the background.
+* Item 3: Menu, make a home screen for the user.
+* Item 4: I put some code in that should help me put in lives for the user
+* Item 5: I want to make levels, some harder than others
+* Item 3: I want to add combos, so the user gets extra points the better they are doing
+* Item 3: I want to make a Timer so it shows how much time you have left for the level

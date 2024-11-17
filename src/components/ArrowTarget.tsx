@@ -10,14 +10,13 @@ const ArrowTarget: React.FC<ArrowTargetProps> = ({ type }) => {
     width: '50px',
     height: '50px',
     border: '2px solid white',
-    top: '80%', // Fixed position where arrows should align
+    top: '80%',
     left: getArrowLeft(type),
   };
 
   return <div style={targetStyle}></div>;
 };
 
-// Function to determine target's horizontal position
 const getArrowLeft = (type: string): string => {
   switch (type) {
     case 'up': return '25%';

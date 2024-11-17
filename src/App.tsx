@@ -11,8 +11,8 @@ const App: React.FC = () => {
   const [arrows, setArrows] = useState<Arrow[]>([]);
 
   const handleArrowHit = (arrowType: string): void => {
-    console.log(`Arrow of type "${arrowType}" hit!`); // Log the type of arrow hit
-    setScore((prevScore) => prevScore + 10); // Increase score by 10
+    console.log(`Arrow of type "${arrowType}" hit!`);
+    setScore((prevScore) => prevScore + 10); 
   };
 
   return (
@@ -22,7 +22,7 @@ const App: React.FC = () => {
         width: '100vw',
         height: '100vh',
         background: '#000',
-        overflow: 'hidden', // Prevent scrolling
+        overflow: 'hidden', 
       }}
     >
       {/* Arrow Targets */}
@@ -36,7 +36,7 @@ const App: React.FC = () => {
       <InputHandler
         arrows={arrows}
         setArrows={setArrows}
-        handleArrowHit={handleArrowHit} // Pass the function to InputHandler
+        handleArrowHit={handleArrowHit} 
       />
     </div>
   );

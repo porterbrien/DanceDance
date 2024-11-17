@@ -15,9 +15,9 @@ const Arrow: React.FC<ArrowProps> = ({ type, position }) => {
         top: `${position}%`,
         width: '50px',
         height: '50px',
-        backgroundColor: 'red', // You could later change this color based on hit status
+        backgroundColor: 'red', 
       }}
-      animate={{ opacity: position < 100 ? 1 : 0 }} // Fade out after the arrow goes off-screen
+      animate={{ opacity: position < 100 ? 1 : 0 }} 
     >
       {type}
     </motion.div>
@@ -31,7 +31,7 @@ const getArrowLeft = (type: string): string => {
     case 'down': return '50%';
     case 'left': return '15%';
     case 'right': return '75%';
-    default: return '50%';
+    default: return '';
   }
 };
 
